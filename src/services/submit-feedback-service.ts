@@ -21,7 +21,7 @@ export class SubmitFeedbackService {
     }
 
     if (!comment) {
-      throw new Error('comment is required');
+      throw new Error('Comment is required');
     }
 
     if (screenshot && !screenshot.startsWith('data:image/png;base64')) {
